@@ -4,13 +4,13 @@ title: Non-profit
 permalink: /nonprofit/
 ---
 
-I've worked with [San Diego Regional Data Library](www.sandiegodata.org) on several projects for civic and non-profit groups. Read below for details.
+I've worked with [San Diego Regional Data Library](https://www.sandiegodata.org){:target="_blank"} on several projects for civic and non-profit groups. Read below for details.
 
 ---
 #### Consumer Advocates for RCFE* Reform (CARR)
 *Residential Care Facility for the Eldery
 
-[CARR](https://rcfereform.org/) approached us for a data-driven answer to the question: what parts of San Diego County are or will be underserved by their RCFE capacity given current and projected senior populations? With this info, CARR would lobby policymakers to dedicate resources to mitigate the effects of RCFE shortfalls in their areas. They could, for example, dedicate funds to concierge medical services so that seniors might remain at home close to loved ones rather than relocate hours away to the nearest affordable RCFE.
+[CARR](https://www.rcfereform.org/){:target="_blank"} approached us for a data-driven answer to the question: what parts of San Diego County are or will be underserved by their RCFE capacity given current and projected senior populations? With this info, CARR would lobby policymakers to dedicate resources to mitigate the effects of RCFE shortfalls in their areas. They could, for example, dedicate funds to concierge medical services so that seniors might remain at home close to loved ones rather than relocate hours away to the nearest affordable RCFE.
 
 CARR needed a visualization containing a message that could be effectively delivered to a non-technical audience in a ten minute pitch. To this end, I did some transformations on available RCFE and census data to generate a "CARR score" for each subregional area (SRA) in the county. The CARR score is derived by first computing "heads per bed" for each SRA - the number of seniors divided by the licensed RCFE capacity - and weighting these figures by the senior populations of the SRAs so sparsely populated areas would not have outsize influence in the visualization. The "weighted heads per bed" values were then log-transformed to compress their range, yielding final CARR scores which should be easily digestible for non-technical audiences. A high CARR score, then, indicates _both_ a large senior population _and_ a low ratio of beds to seniors. The below interactive visualisation should make it easy to convey the urgency of RCFE shortfall to officials in South Bay, for example.
 
