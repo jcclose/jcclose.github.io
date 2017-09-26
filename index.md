@@ -6,3 +6,4 @@
 #
 layout: home
 ---
+<img src = "img/cho_mural.png">
